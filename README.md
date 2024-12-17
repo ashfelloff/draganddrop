@@ -1,4 +1,4 @@
-# Human Verification System
+# Drag and Drop to Verify!
 
 An interactive, user-friendly CAPTCHA alternative that uses natural cursor movements and drag-and-drop mechanics to verify human users.
 
