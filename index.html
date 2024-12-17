@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop CAPTCHA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Are you human?</h1>
+        <p>Drag the robot 🤖 to the box to verify</p>
+        
+        <div class="captcha-container">
+            <div class="objects-container">
+                <div class="draggable" draggable="true">🌟</div>
+                <div class="draggable" draggable="true">🤖</div>
+                <div class="draggable" draggable="true">🎈</div>
+                <div class="draggable" draggable="true">🎮</div>
+                <div class="draggable" draggable="true">🎪</div>
+                <div class="draggable" draggable="true">🎨</div>
+                <div class="draggable" draggable="true">🎭</div>
+                <div class="draggable" draggable="true">🎯</div>
+            </div>
+            
+            <div id="dropZone">Drop Zone</div>
+        </div>
+
+        <div id="message"></div>
+        <button id="verifyBtn" disabled>Verify</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
